@@ -1,0 +1,14 @@
+<svg width="48.000000" height="48.000000" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip18_566">
+			<rect id="Airplay" width="48.000000" height="48.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Airplay" width="48.000000" height="48.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip18_566)">
+		<path id="Icon" d="M10 34L8 34C6.93 34 5.92 33.57 5.17 32.82C4.42 32.07 4 31.06 4 30L4 10C4 8.93 4.42 7.92 5.17 7.17C5.92 6.42 6.93 6 8 6L40 6C41.06 6 42.07 6.42 42.82 7.17C43.57 7.92 44 8.93 44 10L44 30C44 31.06 43.57 32.07 42.82 32.82C42.07 33.57 41.06 34 40 34L38 34M34 42L14 42L24 30L34 42Z" stroke="#F5F5F5" stroke-opacity="1.000000" stroke-width="4.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	</g>
+</svg>

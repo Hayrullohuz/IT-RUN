@@ -1,0 +1,44 @@
+.history {
+    background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/imgs/WhatsApp\ Image\ 2024-07-16\ at\ 17.27.07\ \(1\).jpeg) center/cover no-repeat fixed;
+    color: white;
+    padding: 80px 0;
+}
+.history-title {
+    font-size: 40px;
+    text-align: center;
+    padding:0 0 50px ;
+}
+.history-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+.history img {
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+.history-item {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    backdrop-filter: blur(30px);
+    padding: 20px;
+    align-content: center;
+    text-align: start;
+    font-size: 23px;
+    font-weight: 300;
+}
+.history-btn {
+    background-color: #ec5e00;
+    color: white;
+    border: 2px solid #ec5e00;
+    padding: 6px 40px;
+    transition: 0.3s;
+    /* position: absolute;
+    bottom: 10px;
+    left: 3%;
+    margin: 30px 0 20px; */
+
+}

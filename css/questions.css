@@ -1,0 +1,21 @@
+.questions-title {
+    font-weight: 600;
+    text-align: center;
+    font-size: 40px;
+}
+.questions-subtit {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.accordion {
+    max-width: 70%;
+    width: 100%;
+    margin: 0 auto 80px;
+}
+.accordion-button {
+    font-size: 20px !important;
+}
+.accordion-body {
+    font-size: 17px !important;
+}

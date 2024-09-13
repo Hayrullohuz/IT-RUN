@@ -1,0 +1,46 @@
+.second {
+    padding: 50px 0 80px;
+    background: rgb(240, 240, 240);
+}
+.second-title{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.second-block {
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 60px;
+    margin: auto;
+}
+.second-box {
+    height: 255px;
+    width: 280px;
+    background: rgb(37, 36, 32);
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.orange {
+    background:(37, 36, 32);
+}
+.s-box-img {
+    width: 40px;
+    height: 40px;
+    margin: 0px auto;
+}
+.second-box-title {
+    color: white;
+    font-size: 22px;
+}
+.item-icon {
+    margin-top: 13px;
+    margin-left: 0px;
+}

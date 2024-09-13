@@ -1,0 +1,83 @@
+.header {
+    width: 100%;
+    position: fixed;
+    /* position: relative; */
+    z-index: 100;
+    background-color: white;
+    padding: 8px;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.16);
+}
+.header-left .hamburger-menu {
+    display: none;
+}
+.header-left, .header-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.logo {
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+.header-left button {
+    display: none;
+}
+.branch {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+.header-right {
+    display: flex;
+    gap: 25px;
+}
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+.header-link, .header-num {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.1s ease;
+}
+.header-num:hover {
+    color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+}
+.header-link:hover {
+    color: #ec5e00;
+} 
+.num {
+    font-weight: bold;
+    text-align: center;
+}
+.header-btn {
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.header-btn:hover {
+    background-color: #ec5e00;
+    color: white;
+    border: 2px solid #ec5e00;
+    transition: 0.3s;
+}

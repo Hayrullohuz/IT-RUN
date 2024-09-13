@@ -1,0 +1,93 @@
+.teacher {
+    padding: 80px 0;
+}
+.teacher-title {
+    font-size: 40px;
+    padding: 0 0 70px;
+    text-align: center;
+}
+.teacher-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.teacher-item {
+    position: relative;
+    width: 270px;
+    border-radius: 10px;
+    border: 1px solid rgb(238, 238, 238);
+    transition: all 0.4s ease !important;
+}
+.teacher-item:hover{
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.16);
+}
+.teacher-img {
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;  
+}
+.teacher-img img{
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    transition: all 0.4s ease;
+}
+.teacher-item:hover .teacher-img img {
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+}
+.max {
+    background-color: #e2e4e1;
+}
+.teacher-item-text {
+    padding: 15px;
+    margin-bottom: 0;
+}
+.t-item-title {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.teacher-item img {
+    width: 100%;
+    height: 268px;
+}
+.t-item-p {
+    text-align: center;
+    letter-spacing: 1px;
+    color: rgb(70, 70, 70);
+    margin-bottom: 60px;
+}
+.social-icons {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 210px;
+    height: 45px;
+    margin: 10px auto 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;justify-content: center;
+    align-items: center;
+    transition: 0.2s ease;
+}
+.icon:hover {
+    background-color: rgb(33, 150, 243);
+}
+.ico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #AFB1B8;
+}
+.icon:hover .ico{
+    color: rgb(255, 255, 255);
+}
